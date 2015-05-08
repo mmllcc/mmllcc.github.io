@@ -7,19 +7,22 @@
 
 <body>
 
-<header>
- <div>
-  <p>
-  <a href="#">F＆Q</a>　<a href="#">お問い合わせ</a>
-  <h1><img src="img/logo.jpg" alt="TOKYO BAY SIDE HOTEL"></h1>
-  JP  EN  CH  KO
-  </p>
- </div>
-</header>
+  <header>
+   <div>
+      <p><a href="#">F＆Q</a>　<a href="#">お問い合わせ</a>
+      <h1>
+          <a href="index.html">
+          <img src="img/logo.jpg" alt="TOKYO BAY SIDE HOTEL">
+        </a>
+      </h1>
+      JP  EN  CH  KO
+      </p>
+   </div>
+  </header>
 
 <nav>
   <ul>
-    <li><a href="#"><img src="img/stay.png" alt="ご宿泊"></a></li>
+    <li><a href="suiteroom.html"><img src="img/stay.png" alt="ご宿泊"></a></li>
     <li><a href="#"><img src="img/bar.png" alt="バーラウンジ"></a></li>
     <li><a href="#"><img src="img/lest.png" alt="レストラン"></a></li>
     <li><a href="#"><img src="img/gallary.png" alt="フォトギャラリー"></a></li>
@@ -35,76 +38,151 @@
 
 <!-- main visual -->
 
-<div>
 
- <h2>東京の夜。<BR>贅沢な夜。</h2>
-  <p>ニューヨークモダンな外観デザインとコンテンポラリーなインテリアで、<BR>
-  心地よい格式の高さを守りながら暖かさを感じていただける、<BR>
-  スタイリッシュと快適が共存した新しい価値を提案するニューコンセプトホテルです。<BR>
-  時代の最先端と我が家に帰ってきたような癒しとくつろぎ、そして優しさ。<BR>
-  笑顔と温かいおもてなしで、これまでにない時空間と満足感をお約束いたします。</p>
- 
-</div>
+<form action="reserve.php">
+
+<dl>
+  <p>日付から空室を検索する</p>
+
+<dt>チェックイン</dt>
+
+<dd>
+  <select name="ymd" id="ymd">
+    <option value="20150424">2015-04-24</option>
+    <option value="20150425">2015-04-25</option>
+    <option value="20150426">2015-04-26</option>
+    <option value="20150427">2015-04-27</option>
+    <option value="20150428">2015-04-28</option>
+    <option value="20150429">2015-04-29</option>
+  </select>
+</dd>
+
+<dt>チェックアウト</dt>
+
+<dd>
+  <select name="ymd" id="ymd">
+    <option value="20150425">2015-04-25</option>
+    <option value="20150426">2015-04-26</option>
+    <option value="20150427">2015-04-27</option>
+    <option value="20150428">2015-04-28</option>
+    <option value="20150429">2015-04-29</option>
+    <option value="20150430">2015-04-30</option>
+  </select>
+</dd>
+
+<dt>人数</dt>
+
+<dd>
+  <select name="ninzuu" id="ninzuu">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+  </select>
+</dd>
+
+<dt>室数</dt>
+
+<dd>
+  <select name="heyasuu" id="heyasuu">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+  </select>
+</dd>
+
+   <input type="image" src="img/kensakub.png" name="button1" alt="送信する">
+ </dl>
+</form>
+<!-- 予約フォーム -->
+
+
+
+<section>
+
+   <h2>東京の夜。<BR>贅沢な夜。</h2>
+    <p>ニューヨークモダンな外観デザインとコンテンポラリーなインテリアで、<BR>
+    心地よい格式の高さを守りながら暖かさを感じていただける、<BR>
+    スタイリッシュと快適が共存した新しい価値を提案するニューコンセプトホテルです。<BR>
+    時代の最先端と我が家に帰ってきたような癒しとくつろぎ、そして優しさ。<BR>
+    笑顔と温かいおもてなしで、これまでにない時空間と満足感をお約束いたします。</p>
+
+ </section>
+
 
 <!-- ホテルの説明 -->
 
 
-<div>
 
-<div>
+　<section>
   <h2>新着情報</h2>
+    <dl>
+      <dt>2015.02.01</dt>
+      <dd>改修工事終了のお知らせ</dd>
+      <dt>2015.01.29</dt>
+      <dd>ランチタイム　営業再開のご案内</dd>
+      <dt>2014.02.21</dt>
+      <dd>４月１日より無料送迎シャトル便が生まれ変わります</dd>
+      <dt>2014.02.11</dt>
+      <dd>ホームページからのご予約がお得です。詳しくはこちら</dd>
+      <dt>2014.12.31</dt>
+      <dd>年始シャトルバスのご案内</dd>
+    </dl>
+    <p>▶︎すべての記事を見る</p>
+  </section>
 
-  <dl>
-    <dt>2015.02.01</dt>
-    <dd>改修工事終了のお知らせ</dd>
-    <dt>2015.01.29</dt>
-    <dd>ランチタイム　営業再開のご案内</dd>
-    <dt>2014.02.21</dt>
-    <dd>４月１日より無料送迎シャトル便が生まれ変わります</dd>
-    <dt>2014.02.11</dt>
-    <dd>ホームページからのご予約がお得です。詳しくはこちら</dd>
-    <dt>2014.12.31</dt>
-    <dd>年始シャトルバスのご案内</dd>
-  </dl>
-  <p>▶︎すべての記事を見る</p>
-</div>
+
+  <!-- 新着情報 -->
 
 
-<div>
+<section>
   <h2>宿泊プラン</h2>
-  <a href="#"><img src="img/plan1.png" alt="ナイトビュープランの画像">
-  <img src="img/plan1mozi.png" alt="ナイトビュープランの文字"></a>
+    <section>
+      <a href="#"><img src="img/plan1.png" alt="ナイトビュープランの画像">
+      <img src="img/plan1mozi.png" alt="ナイトビュープランの文字"></a>
+    </section>
 
-  <a href="#"><img src="img/plan2.png" alt="ナビジネスプランの画像">
-  <img src="img/plan2mozi.png" alt="ビジネスプランの文字"></a>
-</div>
+    <section>
+      <a href="#"><img src="img/plan2.png" alt="ナビジネスプランの画像">
+      <img src="img/plan2mozi.png" alt="ビジネスプランの文字"></a>
+    </section>
+</section>
 
 <!-- 宿泊プラン -->
 
-<div>
+
+<section>
   <h2>ピックアップ</h2>
 
-  <div>
-    <a href="#"><img src="img/picup1.jpg" alt="ベイサイド"></a>
-    <h3>Bay side ベイサイド</h3>
-    <p>東京ベイサイドホテル最大の魅力のひとつである東京湾を一望できるロケーション。どの部屋からも東京の夜景をひとり占めできる素晴らしい時間をどうぞお楽しみください。</p>
-  </div>
+    <section>
+      <a href="#"><img src="img/picup1.jpg" alt="ベイサイド"></a>
+      <h3>Bay side ベイサイド</h3>
+      <p>東京ベイサイドホテル最大の魅力のひとつである東京湾を一望できるロケーション。どの部屋からも東京の夜景をひとり占めできる素晴らしい時間をどうぞお楽しみください。</p>
+    </section>
 
-  <div>
-    <a href="#"><img src="img/picup2.jpg" alt="モダンな家具"></a>
-    <h3>Modern furniture モダンな家具</h3>
-    <p>ニューヨークモダンかつコンテンポラリーなデザインのインテリアの数々。当ホテル自慢の家具をご紹介いたします。</p>
-  </div>
+    <section>
+      <a href="#"><img src="img/picup2.jpg" alt="モダンな家具"></a>
+      <h3>Modern furniture モダンな家具</h3>
+      <p>ニューヨークモダンかつコンテンポラリーなデザインのインテリアの数々。当ホテル自慢の家具をご紹介いたします。</p>
+    </section>
 
-  <div>
-    <a href="#"><img src="img/picup3.jpg" alt="バーラウンジ"></a>
-    <h3>Bar lounge バーラウンジ</h3>
-    <p>スタンディングスタイルのカウンターは、一人で訪れても洒落た大人の余裕を感じさせます。テーブル席では艶美な空間で落ち着いた時間をお楽しみください。</p>
-  </div>
+    <section>
+      <a href="#"><img src="img/picup3.jpg" alt="バーラウンジ"></a>
+      <h3>Bar lounge バーラウンジ</h3>
+      <p>スタンディングスタイルのカウンターは、一人で訪れても洒落た大人の余裕を感じさせます。テーブル席では艶美な空間で落ち着いた時間をお楽しみください。</p>
+    </section>
 
-</div>
+</section>
+
 
 <!-- ピックアップ -->
+
+<footer>
 
 <nav>
   <ul>
@@ -133,17 +211,14 @@
     <li><a href="#">無料シャトル便案内図</li>
     <li><a href="#">周辺ガイド</a></li>
 
-
-
-</ul>
+  </ul>
 </nav>
 
 <!-- サイトマップ -->
 
-<footer>
+
   <p>採用情報　　プレスルーム　　プライバシーポリシー　　お問い合わせ　　よくあるご質問　　<img src="img/sns.jpg"></p>
-  <p>Copyright(c) RESORTTRUST All rights reserved.
-東京ベイサイドホテル</p>
+  <p>Copyright(c) RESORTTRUST All rights reserved.<BR>東京ベイサイドホテル</p>
 
 <img src="img/footbg.png">
 
