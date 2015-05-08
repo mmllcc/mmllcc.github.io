@@ -33,72 +33,73 @@
 <!-- めにゅ〜 -->
 
 <div>
-<img src="img/mainv.jpg" alt="メインヴィジュアル">
+  <img src="img/mainv.jpg" alt="メインヴィジュアル">
+  <!-- main visual -->
+
+
+  <form action="reserve.php">
+
+  <dl>
+    <p>日付から空室を検索する</p>
+
+  <dt>チェックイン</dt>
+
+  <dd>
+    <select name="ymd" id="ymd">
+      <option value="20150424">2015-04-24</option>
+      <option value="20150425">2015-04-25</option>
+      <option value="20150426">2015-04-26</option>
+      <option value="20150427">2015-04-27</option>
+      <option value="20150428">2015-04-28</option>
+      <option value="20150429">2015-04-29</option>
+    </select>
+  </dd>
+
+  <dt>チェックアウト</dt>
+
+  <dd>
+    <select name="ymd" id="ymd">
+      <option value="20150425">2015-04-25</option>
+      <option value="20150426">2015-04-26</option>
+      <option value="20150427">2015-04-27</option>
+      <option value="20150428">2015-04-28</option>
+      <option value="20150429">2015-04-29</option>
+      <option value="20150430">2015-04-30</option>
+    </select>
+  </dd>
+
+  <dt>人数</dt>
+
+  <dd>
+    <select name="ninzuu" id="ninzuu">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+  </dd>
+
+  <dt>室数</dt>
+
+  <dd>
+    <select name="heyasuu" id="heyasuu">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+  </dd>
+
+     <input type="image" src="img/kensakub.png" name="button1" alt="送信する">
+   </dl>
+  </form>
+
 </div>
 
-<!-- main visual -->
-
-
-<form action="reserve.php">
-
-<dl>
-  <p>日付から空室を検索する</p>
-
-<dt>チェックイン</dt>
-
-<dd>
-  <select name="ymd" id="ymd">
-    <option value="20150424">2015-04-24</option>
-    <option value="20150425">2015-04-25</option>
-    <option value="20150426">2015-04-26</option>
-    <option value="20150427">2015-04-27</option>
-    <option value="20150428">2015-04-28</option>
-    <option value="20150429">2015-04-29</option>
-  </select>
-</dd>
-
-<dt>チェックアウト</dt>
-
-<dd>
-  <select name="ymd" id="ymd">
-    <option value="20150425">2015-04-25</option>
-    <option value="20150426">2015-04-26</option>
-    <option value="20150427">2015-04-27</option>
-    <option value="20150428">2015-04-28</option>
-    <option value="20150429">2015-04-29</option>
-    <option value="20150430">2015-04-30</option>
-  </select>
-</dd>
-
-<dt>人数</dt>
-
-<dd>
-  <select name="ninzuu" id="ninzuu">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-    <option value="6">6</option>
-  </select>
-</dd>
-
-<dt>室数</dt>
-
-<dd>
-  <select name="heyasuu" id="heyasuu">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-    <option value="6">6</option>
-  </select>
-</dd>
-
-   <input type="image" src="img/kensakub.png" name="button1" alt="送信する">
- </dl>
-</form>
 <!-- 予約フォーム -->
 
 
@@ -144,12 +145,18 @@
   <h2>宿泊プラン</h2>
     <section>
       <a href="#"><img src="img/plan1.png" alt="ナイトビュープランの画像">
-      <img src="img/plan1mozi.png" alt="ナイトビュープランの文字"></a>
+      <img src="img/plan1mozi.png" alt="ナイトビュープランの文字">
+      <p>5/1~5/20限定で当ホテル一番の眺めのお部屋をお得なセットプランで！</p>
+      <p>▶︎ 詳しくはこちら</p>
+      </a>
     </section>
 
     <section>
       <a href="#"><img src="img/plan2.png" alt="ナビジネスプランの画像">
-      <img src="img/plan2mozi.png" alt="ビジネスプランの文字"></a>
+      <img src="img/plan2mozi.png" alt="ビジネスプランの文字">
+      <p>ワンランク上のビジネスマンのためのセットプランです。</p>
+      <p>▶︎ 詳しくはこちら</p>
+      </a>
     </section>
 </section>
 
