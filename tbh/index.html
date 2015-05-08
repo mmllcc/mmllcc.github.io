@@ -9,14 +9,13 @@
 
   <header>
    <div>
-      <p><a href="#">F＆Q</a>　<a href="#">お問い合わせ</a>
-      <h1>
-          <a href="index.html">
-          <img src="img/logo.jpg" alt="TOKYO BAY SIDE HOTEL">
+      <p><a href="#">F＆Q</a>　<a href="#">お問い合わせ</a></p>
+       <h1>
+        <a href="index.html">
+        <img src="img/logo.jpg" alt="TOKYO BAY SIDE HOTEL">
         </a>
       </h1>
-      JP  EN  CH  KO
-      </p>
+      <p>JP  EN  CH  KO</p>
    </div>
   </header>
 
@@ -39,13 +38,12 @@
 
   <form action="reserve.php">
 
-  <dl>
-    <p>日付から空室を検索する</p>
-
-  <dt>チェックイン</dt>
+<p>日付から空室を検索する</p>
+   <dl>
+   <dt>チェックイン</dt>
 
   <dd>
-    <select name="ymd" id="ymd">
+    <select name="ymd1" id="ymd1">
       <option value="20150424">2015-04-24</option>
       <option value="20150425">2015-04-25</option>
       <option value="20150426">2015-04-26</option>
@@ -58,7 +56,7 @@
   <dt>チェックアウト</dt>
 
   <dd>
-    <select name="ymd" id="ymd">
+    <select name="ymd2" id="ymd2">
       <option value="20150425">2015-04-25</option>
       <option value="20150426">2015-04-26</option>
       <option value="20150427">2015-04-27</option>
@@ -93,9 +91,9 @@
       <option value="6">6</option>
     </select>
   </dd>
-
+  </dl>
      <input type="image" src="img/kensakub.png" name="button1" alt="送信する">
-   </dl>
+
   </form>
 
 </div>
@@ -143,21 +141,21 @@
 
 <section>
   <h2>宿泊プラン</h2>
-    <section>
+    <div>
       <a href="#"><img src="img/plan1.png" alt="ナイトビュープランの画像">
       <img src="img/plan1mozi.png" alt="ナイトビュープランの文字">
       <p>5/1~5/20限定で当ホテル一番の眺めのお部屋をお得なセットプランで！</p>
       <p>▶︎ 詳しくはこちら</p>
       </a>
-    </section>
+    </div>
 
-    <section>
+    <div>
       <a href="#"><img src="img/plan2.png" alt="ナビジネスプランの画像">
       <img src="img/plan2mozi.png" alt="ビジネスプランの文字">
       <p>ワンランク上のビジネスマンのためのセットプランです。</p>
       <p>▶︎ 詳しくはこちら</p>
       </a>
-    </section>
+    </div>
 </section>
 
 <!-- 宿泊プラン -->
@@ -191,43 +189,69 @@
 
 <footer>
 
-<nav>
-  <ul>
+  <nav>
     <h2>サイトマップ</h2>
-    <h3><a href="#">宿泊</a></h3>
-    <li><a href="#">シングルルーム</a></li>
-    <li><a href="#">ダブルルーム</a></li>
-    <li><a href="#">ツインルーム</a></li>
-    <li><a href="#">スイートルーム</li>
-    <li><a href="#">禁煙ルーム</a></li>
-    <li><a href="#">バリアフリールーム</a></li>
-    <li><a href="#">宿泊予約</a></li>
 
-    <h3><a href="#">バーラウンジ</a></h3>
-    <li><a href="#">スペシャルメニュー</a></li>
-    <h3><a href="#">シレストラン</a></h3>
-    <li><a href="#">フード＆ビバレッジ　カフェ</a></li>
-    <li><a href="#">おすすめメニュー</li>
-    <li><a href="#">朝食＆ランチ</a></li>
-    <li><a href="#">ナイトタイム</a></li>
-    <li><a href="#">ティータイム</a></li>
+  <ul>
+    <li>
+        <dl>
+        <dt><a href="#">宿泊</a></dt>
+        <dd><a href="#">シングルルーム</a></dd>
+        <dd><a href="#">ダブルルーム</a></dd>
+        <dd><a href="#">ツインルーム</a></dd>
+        <dd><a href="#">スイートルーム</a></dd>
+        <dd><a href="#">禁煙ルーム</a></dd>
+        <dd><a href="#">バリアフリールーム</a></dd>
+        <dd><a href="#">宿泊予約</a></dd>
+      </dl>
+    </li>
 
-    <h3><a href="#">フォトギャラリー</a></h3>
-    <h3><a href="#">交通案内</a></h3>
-    <li><a href="#">アクセスマップ</a></li>
-    <li><a href="#">無料シャトル便案内図</li>
-    <li><a href="#">周辺ガイド</a></li>
 
-  </ul>
-</nav>
+      <li>
+        <dl>
+          <dt><a href="#">バーラウンジ</a></dt>
+          <dd><a href="#">スペシャルメニュー</a></dd>
+        </dl>
+      </li>
+
+      <li>
+        <dl>
+          <dt><a href="#">レストラン</a></dt>
+          <dd><a href="#">フード＆ビバレッジ　カフェ</a></dd>
+          <dd><a href="#">おすすめメニュー</a></dd>
+          <dd><a href="#">朝食＆ランチ</a></dd>
+          <dd><a href="#">ナイトタイム</a></dd>
+          <dd><a href="#">ティータイム</a></dd>
+        </dl>
+      </li>
+
+      <li>
+        <dl>
+          <dt><a href="#">フォトギャラリー</a></dt><dd></dd>
+        </dl>
+      </li>
+
+      <li>
+        <dl>
+          <dt><a href="#">交通案内</a></dt>
+          <dd><a href="#">アクセスマップ</a></dd>
+          <dd><a href="#">無料シャトル便案内図</a></dd>
+          <dd><a href="#">周辺ガイド</a></dd>
+        </dl>
+      </li>
+
+    </ul>
+  </nav>
 
 <!-- サイトマップ -->
 
 
-  <p>採用情報　　プレスルーム　　プライバシーポリシー　　お問い合わせ　　よくあるご質問　　<img src="img/sns.jpg"></p>
-  <p>Copyright(c) RESORTTRUST All rights reserved.<BR>東京ベイサイドホテル</p>
+<div>
+  採用情報　　プレスルーム　　プライバシーポリシー　　お問い合わせ　　よくあるご質問　　<img src="img/sns.jpg" alt="sns">
+</div>
+  <p><small>Copyright(c) RESORTTRUST All rights reserved.<BR>東京ベイサイドホテル</small></p>
 
-<img src="img/footbg.png">
+<img src="img/footbg.png" alt="フッター背景">
 
 </footer>
 
