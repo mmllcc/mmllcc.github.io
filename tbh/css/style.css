@@ -45,9 +45,9 @@ header div ul li a:hover{
 }
 
 .headerright{
-  width: 11
-  4px;
+  width: 114px;
   float: right;
+  color: #700404;
 }
 
 header h1{
@@ -75,7 +75,7 @@ header h1{
     position:absolute;
     z-index:100;
     top:460px;
-    left: 260px;
+    left: 250px;
 }
 
 .form ul li{
@@ -87,11 +87,47 @@ header h1{
     margin-bottom: -5px;
 }
 
+.select-box{
+  border: 1px solid #9b9695;
+  border-radius: 0px;
+  color: #333;
+  text-align: center;
+  text-indent: 10px;
+  width: 115px;
+  height: 20px;
+  padding: 0px 2px 2px 2px;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor: pointer;
+  text-overflow: "";
+  background: #dadad8 url(../img/yzrs4.png) no-repeat right;
+}
+
+
+.select-box2{
+  border: 1px solid #9b9695;
+  border-radius: 0px;
+  color: #333;
+  text-align: center;
+  text-indent: 25px;
+  width: 70px;
+  height: 20px;
+  padding: 0px 2px 2px 2px;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor: pointer;
+  text-overflow: "";
+  background: #dadad8 url(../img/yzrs4.png) no-repeat right;
+}
+
+
+
 .kensaku_midashi{
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
   font-size: 14.5px;
 }
-
 
 .kensaku_button{
   margin-top: 15px;
@@ -325,6 +361,7 @@ p.pick_text{
   margin-bottom: 130px;
 }
 
+
 footer{
 background: url(../img/footbg.png);
 background-repeat: repeat-x;
@@ -337,36 +374,38 @@ background-repeat: repeat-x;
   margin-right: 200px;
 }
 
-h5{
-  position:relative;
-  margin-left: 3px;
-}
 
 nav ul{
   overflow: hidden;
   margin-top: 50px;
 }
 
+footer a:link,
+footer a:visited{
+  color: #c8c8c8;
+  text-decoration: none;
+  line-height: 2.5;
+}
+
+
 footer nav ul li{
   font-size: 10px;
   font-family: Helvetica,Arial,sans-serif;
   float:left;
   margin-right: 20px;
-}
-
-nav ul li:last-child{
-  margin-right: 0;
-
-}
-
-nav ul li a{
-  color: #c8c8c8;
-  text-decoration: none;
   width: 230px;
-  height: 25px;
-  display: block;
 }
 
+footer nav ul li.3danme{
+  float: right;
+  margin-right: 0;
+  width: 110px;
+  text-align: right;
+}
+
+footer nav ul li dl dd{
+  padding-left: 10px;
+  }
 
 
 /* 採用情報とか */

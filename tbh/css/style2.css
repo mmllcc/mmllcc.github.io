@@ -45,9 +45,9 @@ header div ul li a:hover{
 }
 
 .headerright{
-  width: 11
-  4px;
+  width: 114px;
   float: right;
+  color: #700404;
 }
 
 header h1{
@@ -91,6 +91,8 @@ h2{
   text-align: center;
   font-size: 26px;
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
 
 .suite-katakana{
@@ -146,33 +148,35 @@ float: right;
 }
 
 table.room-syousai{
-  width: 500px;
+  width: 520px;
   border-collapse: collapse;
 }
+
 table.room-syousai th{
 width: 25%;
-padding: 6px;
 text-align: left;
 vertical-align: top;
 color: #333;
 background-color: #e5e5e5;
 border: 1px solid #c8c8c8;
+color: #757270;
+font-weight:400;
+padding: 7px 0px 7px 20px;
 }
+
 table.room-syousai td{
-padding: 6px;
 background-color: #f6f6f4;
 border: 1px solid #c8c8c8;
+color: #757270;
+padding: 10px 0px 10px 20px;
+
+}
+
+table.room-syousai td.amenity{
+letter-spacing: 1.1px;
 }
 
 
-
-.table{
-    width: 650px;
-    height: 120px;
-    margin-left: 290px;
-    margin-top: 10px;
-    margin-bottom: -10px;
-}
 
 .sarvice_text{
   padding-left: 1em;
@@ -188,11 +192,17 @@ border: 1px solid #c8c8c8;
   line-height: 1.5;
 }
 
-.madori-osusume{
-  width: 500px;
+.migi_block{
+  width: 497px;
+  height: 677px;
   float: right;
   margin-top: -50px;
 }
+
+.madori-osusume{
+  margin-left: 50px;
+}
+
 
 .madori_text{
   font-size: 12px ;
@@ -207,22 +217,26 @@ border: 1px solid #c8c8c8;
   margin-top: 5px;
 }
 
-.osusume_mozi{
+.osusume_title{
   font-size: 18px;
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
   color: #700404;
-  font-weight: bold;
+  font-weight: 900;
   float: right;
 }
 
-.madori-osusume ul{
+.osusume_text{
+  color: #700404;
+}
+
+.migi_block ul{
   margin-left: 50px;
   margin-bottom: 50px;
   font-size: 14px;
   clear: both;
 }
 
-.madori-osusume ul li a{
+.migi_block ul li a{
   color: #700404;
 }
 
@@ -237,23 +251,64 @@ border: 1px solid #c8c8c8;
   margin-bottom: 70px;
 }
 
+.kyakuroom{
+  margin-bottom: 100px;
+}
+
+.kyakuroom ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  font-weight: 900;
+}
+
 .kyakuroom ul li{
+  width: 315px;
+  height: 105px;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 35px;
+  margin-right: 35px;
+}
+
+
+.kyakuroom ul li dl{
   width: 315px;
   height: 105px;
   background-color: #e5e5e5;
   overflow: hidden;
+}
+
+.kyakuroom ul li dl dt{
+  width: 103px;
+  height: 105px;
   float: left;
-  margin-bottom: 80px;
-  margin-right: 35px;
+}
+
+.kyakuroom ul li dl dd{
+  width: 212px;
+  height: 105px;
+  float: right;
+  padding: 40px 0;
+  text-indent: 10px;
 }
 
 .kyakuroom ul li:nth-child(3){
   margin-right: 0;
   }
 
+  .table{
+      width: 650px;
+      height: 120px;
+      margin-left: 240px;
+      margin-top: 10px;
+      margin-bottom: -10px;
+  }
+
 p.border{
-  margin-left: 230px;
-  width: 570px;
+  margin-left: 210px;
+  width: 610px;
   border-bottom: 1px solid #700404;
 }
 
@@ -264,6 +319,42 @@ p.border{
 
 .form p{
     margin-bottom: -5px;
+}
+
+
+.select-box{
+  border: 1px solid #9b9695;
+  border-radius: 0px;
+  color: #333;
+  text-align: center;
+  text-indent: 10px;
+  width: 115px;
+  height: 20px;
+  padding: 0px 2px 2px 2px;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor: pointer;
+  text-overflow: "";
+  background: #dadad8 url(../img/yzrs4.png) no-repeat right;
+}
+
+
+.select-box2{
+  border: 1px solid #9b9695;
+  border-radius: 0px;
+  color: #333;
+  text-align: center;
+  text-indent: 25px;
+  width: 70px;
+  height: 20px;
+  padding: 0px 2px 2px 2px;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor: pointer;
+  text-overflow: "";
+  background: #dadad8 url(../img/yzrs4.png) no-repeat right;
 }
 
 .kensaku_midashi{
@@ -284,6 +375,26 @@ p.glow1{
   text-indent: -0.8cm;
 }
 
+.pagetop a{
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.pagetop {
+  text-align: right;
+  background: url(../img/yzrs3.png) right center no-repeat;
+  margin-top: 50px;
+}
+
+
+.wrapper3{
+  width: 1017px;
+  /* 上　左右　下 */
+  margin: 40px auto 0px;
+  overflow: hidden;
+}
+
 
 footer{
 background: url(../img/footbg.png);
@@ -297,42 +408,53 @@ background-repeat: repeat-x;
   margin-right: 200px;
 }
 
-h5{
-  position:relative;
-  margin-left: 3px;
-}
 
 nav ul{
   overflow: hidden;
   margin-top: 50px;
 }
 
+footer a:link,
+footer a:visited{
+  color: #c8c8c8;
+  text-decoration: none;
+  line-height: 2.5;
+}
+
+
 footer nav ul li{
   font-size: 10px;
   font-family: Helvetica,Arial,sans-serif;
   float:left;
   margin-right: 20px;
-}
-
-nav ul li:last-child{
-  margin-right: 0;
-
-}
-
-nav ul li a{
-  color: #c8c8c8;
-  text-decoration: none;
   width: 230px;
-  height: 25px;
-  display: block;
 }
 
+footer nav ul li.3danme{
+  float: right;
+  margin-right: 0;
+  width: 110px;
+  text-align: right;
+}
+
+footer nav ul li dl dd{
+  padding-left: 10px;
+  }
 
 
 /* 採用情報とか */
 div ul{
   margin-bottom: 0px;
   overflow: hidden;
+}
+
+nav ul li p{
+  color: #c8c8c8;
+  text-decoration: none;
+  width: 230px;
+  height: 25px;
+  display: block;
+
 }
 
 .footernav{
