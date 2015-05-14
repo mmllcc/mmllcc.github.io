@@ -151,6 +151,10 @@ header h1{
   cursor: pointer;
   text-overflow: "";
   background: #dadad8 url(../img/yzrs4.png) no-repeat right;
+  filter:alpha(opacity=85);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity:0.8;
 }
 
 
@@ -169,6 +173,10 @@ header h1{
   cursor: pointer;
   text-overflow: "";
   background: #dadad8 url(../img/yzrs4.png) no-repeat right;
+  filter:alpha(opacity=85);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity:0.8;
 }
 
 
