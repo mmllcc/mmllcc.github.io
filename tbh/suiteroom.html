@@ -2,26 +2,36 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>スイートルーム</title>
+  <title>東京ベイサイドホテル</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
 
+<div class="wrapper">
+
   <header>
    <div>
-      <p><a href="#">F＆Q</a>　<a href="#">お問い合わせ</a></p>
-       <h1>
-        <a href="index.html">
-        <img src="img/logo.jpg" alt="TOKYO BAY SIDE HOTEL">
-        </a>
-      </h1>
-      <p>JP  EN  CH  KO</p>
+      <ul class="headerleft">
+        <li><a href="#">F＆Q</a>　<a href="#">お問い合わせ</a></li>
+      </ul>
+
+    <h1>
+     <a href="index.html">
+     <img src="img/logo.png" alt="TOKYO BAY SIDE HOTEL">
+     </a>
+    </h1>
+
+      <ul class="headerright">
+        <li><a href="#">JP</a> | <a href="#">EN</a> | <a href="#">CH</a> | <a href="#">KO</a></li>
+      </ul>
    </div>
   </header>
 
-<nav>
+<nav class="menu">
   <ul>
-    <li><a href="#"><img src="img/stay.png" alt="ご宿泊"></a></li>
+    <li><a href="suiteroom.html"><img src="img/stay.png" alt="ご宿泊"></a></li>
     <li><a href="#"><img src="img/bar.png" alt="バーラウンジ"></a></li>
     <li><a href="#"><img src="img/lest.png" alt="レストラン"></a></li>
     <li><a href="#"><img src="img/gallary.png" alt="フォトギャラリー"></a></li>
@@ -31,236 +41,283 @@
 
 <!-- めにゅ〜 -->
 
-<div><a href="#">TOP</a> > <a href="#">ご宿泊</a> > <a href="#">スイートルーム</a></div>
+<div class="pankuzu"><a href="#">TOP</a> > <a href="#">ご宿泊</a> > <a href="#">スイートルーム</a></div>
 
 <!-- パン屑 -->
 
 <div>
-  <section>
+  <section class="wrapper2">
+    <!-- 〜おすすめプランまで -->
 
-  <h1>Suite Room/スイートルーム</h1>
-  <p>日常を忘れさせる洗練された空間。<BR>都心の隠れ家として、寛ぎのひとときをお過ごしください。</p>
+  <h1>Suite Room<p class="suite-katakana">/スイートルーム</p></h1>
+  <p class="suite_text">日常を忘れさせる洗練された空間。<br>都心の隠れ家として、寛ぎのひとときをお過ごしください。</p>
+
 
 
 <!-- スイートルームの説明 -->
 
 <div>
   <img src="img/suite1.png" alt="スイートルームの画像">
-  <img src="img/suite2.png" alt="スイートルームの画像">
-  <img src="img/suite3.png" alt="スイートルームの画像">
-  <img src="img/suite4.png" alt="スイートルームの画像">
-  <img src="img/suite5.png" alt="スイートルームの画像">
 </div>
+
+<ul class="smallroom_img">
+  <li>
+    <img src="img/suite2.png" alt="スイートルームの画像">
+  </li>
+  <li>
+    <img src="img/suite3.png" alt="スイートルームの画像">
+  </li>
+  <li>
+    <img src="img/suite4.png" alt="スイートルームの画像">
+  </li>
+  <li>
+    <img src="img/suite5.png" alt="スイートルームの画像">
+  </li>
+</ul>
+
 
 <!-- 部屋画像 -->
 
 
 
+<div class="ryoukin-syousai">
+      <div class="money">
+      <p class="ryoukin">料金  /  ～￥53,519  </p><p class="zeikomi">( 税込み￥57,800 )</p>
+      </div>
 
-<div>
-  <p>料金  /  ～￥53,519  ( 税込み￥57,800 )</p>
 
-  <table>
 
-    <tr>
-      <td>チェックイン</td>
-      <td>15:00~</td>
-    </tr>
+   <table class="room-syousai">
+     <tbody>
 
-    <tr>
-      <td>チェックアウト</td>
-      <td>11:00~</td>
-    </tr>
+      <tr>
+        <th style="border-left-style: hidden;">チェックイン</th>
+        <td style="border-right-style: hidden;">15:00~</td>
+      </tr>
 
-    <tr>
-      <td>広さ</td>
-      <td>約54㎡</td>
-    </tr>
+      <tr>
+        <th style="border-left-style: hidden;">チェックアウト</th>
+        <td style="border-right-style: hidden;">11:00~</td>
+      </tr>
 
-    <tr>
-      <td>サービス</td>
-      <td>
+      <tr>
+        <th style="border-left-style: hidden;">広さ</th>
+        <td style="border-right-style: hidden;">約54㎡</td>
+      </tr>
 
-    ランドリー
+      <tr>
+        <th style="border-left-style: hidden;">サービス</th>
+        <td style="border-right-style: hidden;">
 
-    <span>午前10時までの集荷→当日夕刻のお渡し
-      午前10時以降の場合→翌日昼のお渡し   ※日曜日休み</span>
+      ランドリー<br>
 
-    マッサージ
+      <span class="sarvice_text">午前10時までの集荷→当日夕刻のお渡し</span><br>
+      <span class="sarvice_text">午前10時以降の場合→翌日昼のお渡し   ※日曜日休み<br></span>
 
-    <span>午後7時～午前2時まで受付。</span>
+      マッサージ<br>
 
-      インターネット
+      <span>午後7時～午前2時まで受付。</span>
 
-    <span>高速インターネット回線を全客室に完備。</span>
+        インターネット
 
-    ビデオ・オン・デマンド
+      <span>高速インターネット回線を全客室に完備。</span>
 
-    <span>お好きな時間に各種ビデオをはじめ、最新ムービーなどを
-      お楽しみいただける映像配信システムです。</span>
+      ビデオ・オン・デマンド
 
+      <span>お好きな時間に各種ビデオをはじめ、最新ムービーなどを
+        お楽しみいただける映像配信システムです。</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <th style="border-left-style: hidden;">アメニティ</th>
+        <td style="border-right-style: hidden;">シャワートイレ/ユニットバス電話/冷蔵庫/ドライヤー/
+        ズボンプレッサー/高速インターネット通信回線（無料）/
+        ビデオ・オン・デマンド（有料）/液晶テレビ</td>
+      </tr>
+
+      <tr>
+        <th style="border-left-style: hidden;">備考</th>
+        <td style="border-right-style: hidden;">駐車場
+        <span>ご宿泊の方は1台1泊1,500円（午後3時～翌日午前11時）
+        ※満車時は近隣の一般駐車場をフロントでご案内いたします。</span>
       </td>
-    </tr>
+      </tr>
 
-    <tr>
-      <td>アメニティ</td>
-      <td>シャワートイレ/ユニットバス電話/冷蔵庫/ドライヤー/
-      ズボンプレッサー/高速インターネット通信回線（無料）/
-      ビデオ・オン・デマンド（有料）/液晶テレビ</td>
-    </tr>
+    </tbody>
+    </table>
 
-    <tr>
-      <td>備考</td>
-      <td>駐車場
-      <span>ご宿泊の方は1台1泊1,500円（午後3時～翌日午前11時）
-      ※満車時は近隣の一般駐車場をフロントでご案内いたします。</span>
-    </td>
-    </tr>
+    <!-- 部屋詳細 -->
+    </div>
 
-  </table>
 
-  <!-- 部屋詳細 -->
 
-</div>
-
- <div>
+ <div class="madori-osusume">
     <img src="img/madori.png" alt="間取り図">
-    <p>•バスルームの客室面に扉があり、眺めをお愉しみいただけます。<BR>
+    <p class="madori_text">•バスルームの客室面に扉があり、眺めをお愉しみいただけます。<br>
     •3名様でご利用のお客様には、トランドルベッドをご利用いただきます。</p>
     <!-- 間取り図 -->
 
-    <p><img src="img/hata.png" alt="旗アイコン">おすすめプラン</p>
+    <div class="osusume_midashi">
+      <p class="hata_icon"><img src="img/hata.png" alt="旗アイコン"></p><p class="osusume_mozi">おすすめプラン</p>
+    </div>
     <ul>
-      <li><a href="#">極上の夜景とともに～ナイトスイーツブッフェ付</a></li>
-      <li><a href="#">グラスシャンパーニュで乾杯〜二人のプチ記念日</a></li>
-      <li><a href="#">ロマンティックな2人の為のお台場カップルプラン</a></li>
+      <li>•<a href="#">極上の夜景とともに～ナイトスイーツブッフェ付</a></li>
+      <li>•<a href="#">グラスシャンパーニュで乾杯〜二人のプチ記念日</a></li>
+      <li>•<a href="#">ロマンティックな2人の為のお台場カップルプラン</a></li>
     </ul>
 
     <!-- おすすめプラン -->
 
-      <a href="#">
-        <img src="img/yoyakub.png" alt="宿泊予約">
-      </a>
+      <p class="yoyaku_button">
+        <a href="#">
+          <img src="img/yoyakub.png" alt="宿泊予約">
+        </a>
+      </p>
+
  </div>
 
  </section>
+<!--wrapper2 -->
+
+<div class="kyakuroom">
+  <h2>その他の客室</h2>
+
+    <ul>
+      <li>
+        <a href="#">
+          <img src="img/room1.png" alt="シングルルーム">
+          シングルルーム
+          </a>
+       </li>
+
+      <li>
+        <a href="#">
+          <img src="img/room2.png" alt="ダブルルーム">
+          ダブルルーム
+          </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <img src="img/room3.png" alt="ツインルーム">
+          ツインルーム
+          </a>
+      </li>
+
+      <li><a href="#">
+          <img src="img/room4.png" alt="禁煙ルーム">
+          禁煙ルーム
+          </a>
+        </li>
+
+      <li><a href="#">
+          <img src="img/room5.png" alt="バリアフリールーム">
+          バリアフリールーム
+          </a>
+        </li>
+      </ul>
+
+  <!-- その他客室 --></div>
 
 
-<h2>その他の客室</h2>
+<p class="border"></p>
+
+<div class="table">
+  <form action="reserve.php" class="form">
+
+<p class="glow1">日付から空室を検索する</p>
 
   <ul>
     <li>
-      <a href="#">
-        <img src="img/room1.png" alt="シングルルーム">
-        シングルルーム
-        </a>
+      <p class="glow2">チェックイン</p>
+
+       <select name="ymd1" id="ymd1">
+         <option value="20150424">2015-04-24</option>
+         <option value="20150425">2015-04-25</option>
+         <option value="20150426">2015-04-26</option>
+         <option value="20150427">2015-04-27</option>
+         <option value="20150428">2015-04-28</option>
+         <option value="20150429">2015-04-29</option>
+       </select>
     </li>
 
     <li>
-      <a href="#">
-        <img src="img/room2.png" alt="ダブルルーム">
-        ダブルルーム
-        </a>
+      <p class="glow2">チェックアウト</p>
+
+        <select name="ymd2" id="ymd2">
+          <option value="20150425">2015-04-25</option>
+          <option value="20150426">2015-04-26</option>
+          <option value="20150427">2015-04-27</option>
+          <option value="20150428">2015-04-28</option>
+          <option value="20150429">2015-04-29</option>
+          <option value="20150430">2015-04-30</option>
+        </select>
     </li>
 
     <li>
-      <a href="#">
-        <img src="img/room3.png" alt="ツインルーム">
-        ツインルーム
-        </a>
+      <p class="glow2">人数</p>
+
+
+        <select name="ninzuu" id="ninzuu">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      </li>
+
+    <li>
+      <p class="glow2">室数</p>
+
+        <select name="heyasuu" id="heyasuu">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
     </li>
 
-    <li><a href="#">
-        <img src="img/room4.png" alt="禁煙ルーム">
-        禁煙ルーム
-        </a>
+    <li>
+      <input type="image" src="img/kensakub.png" name="button1" alt="送信する" class="kensaku_button">
       </li>
+  </ul>
 
-    <li><a href="#">
-        <img src="img/room5.png" alt="バリアフリールーム">
-        バリアフリールーム
-        </a>
-      </li>
-    </ul>
-
-<div>
-  <form action="reserve.php">
-
-    <p>日付から空室を検索する</p>
-
-  <dl>
-  <dt>チェックイン</dt>
-
-  <dd>
-    <select name="ymd1" id="ymd1">
-      <option value="20150424">2015-04-24</option>
-      <option value="20150425">2015-04-25</option>
-      <option value="20150426">2015-04-26</option>
-      <option value="20150427">2015-04-27</option>
-      <option value="20150428">2015-04-28</option>
-      <option value="20150429">2015-04-29</option>
-    </select>
-  </dd>
-
-  <dt>チェックアウト</dt>
-
-  <dd>
-    <select name="ymd2" id="ymd2">
-      <option value="20150425">2015-04-25</option>
-      <option value="20150426">2015-04-26</option>
-      <option value="20150427">2015-04-27</option>
-      <option value="20150428">2015-04-28</option>
-      <option value="20150429">2015-04-29</option>
-      <option value="20150430">2015-04-30</option>
-    </select>
-  </dd>
-
-  <dt>人数</dt>
-
-  <dd>
-    <select name="ninzuu" id="ninzuu">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-    </select>
-  </dd>
-
-  <dt>室数</dt>
-
-  <dd>
-    <select name="heyasuu" id="heyasuu">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-    </select>
-  </dd>
-  </dl>
-     <input type="image" src="img/kensakub.png" name="button1" alt="送信する">
 
   </form>
+
 </div>
+<!-- table -->
+
+<p class="border"></p>
+
 <!-- 予約フォーム -->
 
-<p><a href="#">pagetop ▲</a></p>
+
+<p><a href="#">pagetop</a></p>
 
 </div>
 
+
+</div>
+<!-- wrapper -->
 
 <footer>
 
+  <div class="wrapper">
+
   <nav>
-    <h2>サイトマップ</h2>
+    <h5 class="sitemap">サイトマップ</h5>
 
   <ul>
-    <li>
+    <li class="1danme">
         <dl>
-        <dt><a href="#">宿泊</a></dt>
+        <dt><h5><a href="#">宿泊</a></h5></dt>
         <dd><a href="#">シングルルーム</a></dd>
         <dd><a href="#">ダブルルーム</a></dd>
         <dd><a href="#">ツインルーム</a></dd>
@@ -272,16 +329,14 @@
     </li>
 
 
-      <li>
+      <li class="2danme">
         <dl>
-          <dt><a href="#">バーラウンジ</a></dt>
+          <dt><a href="#"><h5>バーラウンジ</h5></a></dt>
           <dd><a href="#">スペシャルメニュー</a></dd>
         </dl>
-      </li>
 
-      <li>
         <dl>
-          <dt><a href="#">レストラン</a></dt>
+          <dt><a href="#"><h5>レストラン</h5></a></dt>
           <dd><a href="#">フード＆ビバレッジ　カフェ</a></dd>
           <dd><a href="#">おすすめメニュー</a></dd>
           <dd><a href="#">朝食＆ランチ</a></dd>
@@ -290,15 +345,14 @@
         </dl>
       </li>
 
-      <li>
-        <dl>
-          <dt><a href="#">フォトギャラリー</a></dt><dd></dd>
-        </dl>
-      </li>
 
-      <li>
+      <li class="3danme">
         <dl>
-          <dt><a href="#">交通案内</a></dt>
+          <dt><a href="#"><h5>フォトギャラリー</h5></a></dt><dd></dd>
+        </dl>
+
+        <dl>
+          <dt><a href="#"><h5>交通案内</h5></a></dt>
           <dd><a href="#">アクセスマップ</a></dd>
           <dd><a href="#">無料シャトル便案内図</a></dd>
           <dd><a href="#">周辺ガイド</a></dd>
@@ -311,14 +365,31 @@
 <!-- サイトマップ -->
 
 
-<div>
-  採用情報　　プレスルーム　　プライバシーポリシー　　お問い合わせ　　よくあるご質問　　<img src="img/sns.jpg" alt="sns">
+<div class="footernav">
+ <ul>
+  <li>採用情報　　</li>
+  <li>プレスルーム　　</li>
+  <li>プライバシーポリシー　　</li>
+  <li>お問い合わせ　　</li>
+  <li>よくあるご質問　　</li>
+<li class="sns">
+  <img src="img/sns1.png" alt="sns">
+  <img src="img/sns2.png" alt="sns">
+  <img src="img/sns3.png" alt="sns">
+  <img src="img/sns4.png" alt="sns">
+  <img src="img/sns5.png" alt="sns">
+</li>
+ </ul>
 </div>
-  <p><small>Copyright(c) RESORTTRUST All rights reserved.<BR>東京ベイサイドホテル</small></p>
 
-<img src="img/footbg.png" alt="フッター背景">
+
+  <p><small>Copyright(c) RESORTTRUST All rights reserved.<br>東京ベイサイドホテル</small></p>
+
+</div>
+<!-- wrapper -->
 
 </footer>
+
 
 
 </body>
