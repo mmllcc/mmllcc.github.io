@@ -54,8 +54,7 @@ header h1{
   width: 153px;
   height: 66px;
   position:absolute;
-  left:48%;
-  top: 0;
+  left: 48%;
   margin-left: -76px;
 }
 
@@ -76,13 +75,28 @@ header h1{
 color: #747474;
 }
 
-.wrapper2 h1{
-  width: 260px;
+.suite-eigo{
   margin-left: 380px;
   font-size: 26px;
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.suite-katakana{
+  width: 120px;
+  font-size: 12px;
+  font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+margin-top: -32px;
+letter-spacing: 4px;
+margin-left: 525px;
+float:left;
+margin-bottom: 20px;
+}
+
+.suite_title{
+  width: 300px;
+  margin-left: 380px;
 }
 
 h2{
@@ -93,15 +107,6 @@ h2{
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
   margin-top: 80px;
   margin-bottom: 70px;
-}
-
-.suite-katakana{
-  font-size: 12px;
-  font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
-margin-top: 19px;
-letter-spacing: 4px;
-margin-left: 5px;
-float: right;
 }
 
 
