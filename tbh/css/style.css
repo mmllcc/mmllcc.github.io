@@ -1,5 +1,3 @@
-/* ホテル */
-
 body{
   font-size: 13px;
   font-family: sans-serif;
@@ -7,6 +5,7 @@ body{
   color: #333;
   background-color: #f6f6f4;
 }
+/* ホテル トップページ*/
 
 .wrapper{
   width: 1017px;
@@ -463,7 +462,7 @@ footer nav ul li dl dd{
   }
 
 
-/* 採用情報とか */
+/* 採用情報など */
 div ul{
   margin-bottom: 0px;
   overflow: hidden;
@@ -493,5 +492,5 @@ footer p{
   color: #c8c8c8;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
