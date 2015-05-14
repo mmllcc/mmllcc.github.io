@@ -394,6 +394,7 @@ p.border{
   color: #333;
   text-align: center;
   text-indent: 10px;
+  width: 115px;
   height: 20px;
   padding: 0px 2px 2px 2px;
   -webkit-appearance: none;
