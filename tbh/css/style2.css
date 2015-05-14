@@ -81,6 +81,7 @@ color: #747474;
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
   letter-spacing: 2px;
   margin-top: 20px;
+  font-weight:900;
 }
 
 .suite-katakana{
@@ -94,10 +95,6 @@ float:left;
 margin-bottom: 20px;
 }
 
-.suite_title{
-  width: 300px;
-  margin-left: 380px;
-}
 
 h2{
   clear: both;
@@ -135,6 +132,7 @@ h2{
 }
 
 .ryoukin{
+  font-weight:900;
   font-size: 18px;
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
 }
@@ -148,7 +146,7 @@ h2{
 
 .money{
   width: 260px;
-  margin-top: 20px;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
@@ -215,6 +213,7 @@ letter-spacing: 1.1px;
   margin-left: 40px;
   color: #757270;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .hata_icon{
@@ -378,6 +377,7 @@ p.glow1{
   font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
   margin-bottom: 7px;
   text-indent: -0.8cm;
+  font-weight:900;
 }
 
 .pagetop a{

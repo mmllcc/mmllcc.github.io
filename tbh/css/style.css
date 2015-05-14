@@ -222,6 +222,10 @@ h2{
   margin-left: 325px;
 }
 
+.subetenokizi a{
+  text-decoration: none;
+  color: #000;
+}
 
 
 .setumei{
@@ -237,6 +241,7 @@ h2{
 .plan{
   clear:both;
   overflow: hidden;
+  font-weight: normal;
 }
 
 
@@ -325,6 +330,7 @@ h3{
   font-family: 'Century';
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 
 h4{
@@ -333,6 +339,7 @@ h4{
   float: left;
   margin-top: 25px;
   margin-left: 6px;
+  font-weight: 400;
 }
 
 p.pick_text{
