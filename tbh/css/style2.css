@@ -65,6 +65,58 @@ header h1{
   height: 72px;
 }
 
+
+.menu1{
+    background: url("../img/stay2.png") no-repeat;
+}
+.menu1 a {
+    display: inline-block;
+}
+.menu1 a:hover img {
+    visibility: hidden;
+}
+
+.menu2{
+    background: url("../img/bar2.png") no-repeat;
+}
+.menu2 a {
+    display: inline-block;
+}
+.menu2 a:hover img {
+    visibility: hidden;
+}
+
+.menu3{
+    background: url("../img/lest2.png") no-repeat;
+}
+.menu3 a {
+    display: inline-block;
+}
+.menu3 a:hover img {
+    visibility: hidden;
+}
+
+.menu4{
+    background: url("../img/gallary2.png") no-repeat;
+}
+.menu4 a {
+    display: inline-block;
+}
+.menu4 a:hover img {
+    visibility: hidden;
+}
+
+.menu5{
+    background: url("../img/access2.png") no-repeat;
+}
+.menu5 a {
+    display: inline-block;
+}
+.menu5 a:hover img {
+    visibility: hidden;
+}
+
+
 .pankuzu{
   font-size: 12px;
   width: 15em;
@@ -74,6 +126,11 @@ header h1{
 .pankuzu a{
 color: #747474;
 }
+
+.pankuzu a:hover{
+color: #c4c4c4;
+}
+
 
 .suite-eigo{
   margin-left: 380px;
@@ -233,6 +290,10 @@ letter-spacing: 1.1px;
   color: #700404;
 }
 
+.osusume_text a:hover{
+color: #c4c4c4;
+}
+
 .migi_block ul{
   margin-left: 50px;
   margin-bottom: 50px;
@@ -254,6 +315,7 @@ letter-spacing: 1.1px;
   margin-left: auto;
   margin-bottom: 70px;
 }
+
 
 .kyakuroom{
   margin-bottom: 100px;
@@ -332,7 +394,6 @@ p.border{
   color: #333;
   text-align: center;
   text-indent: 10px;
-  width: 115px;
   height: 20px;
   padding: 0px 2px 2px 2px;
   -webkit-appearance: none;
