@@ -15,12 +15,12 @@ header div ul li:last-child{
   margin-right: 0;
 }
 
-.headerleft{
+.searchbar{
   float: left;
   margin-top: 64px;
 }
 
-.headerright{
+.menu-button{
   width: 62px;
   float: right;
   margin-top: 52px;
@@ -72,7 +72,7 @@ body{
     text-decoration: none;
 }
 
-/* TOPへ */
+/* TOPへ飛ぶ */
 
 .nav{
   z-index: 10;
@@ -125,7 +125,7 @@ dl.search2 dd button span{
 }
 
 
-/* ヘッダーナビ */
+/* ヘッダーナビ 固定*/
 
 
 div.mainv img {
