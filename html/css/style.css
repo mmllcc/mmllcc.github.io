@@ -177,9 +177,6 @@ margin-left: 170px;
 }
 
 .news-list li{
-  color: #333;
-  font-size: 14px;
-  line-height: 1.5em;
   width: 236px;
   height: 275px;
   float: left;
@@ -203,6 +200,15 @@ margin-left: 170px;
   margin-top: 20px;
 letter-spacing: 3px;
 }
+
+
+.news-list a:visited,
+.news-list a:link,
+.news-list a:hover{
+  color: #858585;
+  text-decoration: none;
+}
+
 
 .more{
   position: absolute;
